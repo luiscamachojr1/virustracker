@@ -1,19 +1,26 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
     <title>@ViewData["Title"] - RazorPagesMovie</title>
-    <link rel="stylesheet" type="text/css" href="~/css/site.css" />
-    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="~/css/fontawesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="~/css/fullcalender.min.css" />
-    <link rel="stylesheet" type="text/css" href="~/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="~/css/tooplate.css" />
-    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/site.css" asp-append-version="true"  />
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="~/css/fontawesome.min.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="~/css/fullcalender.min.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="~/css/tooplate.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
     
 </head>
+
 <body>
     
     <div class="container">
@@ -24,21 +31,21 @@
 
    
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true" ></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" asp-append-version="true" ></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/lib/jquery/dist/jquery-3.3.1.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery-3.3.1.min.js" asp-append-version="true" ></script>
     <!-- https://jquery.com/download/ -->
-    <script src="~/js/moment.min.js"></script>
+    <script src="~/js/moment.min.js" asp-append-version="true" ></script>
     <!-- https://momentjs.com/ -->
-    <script src="~/js/utils.js"></script>
-    <script src="~/js/Chart.min.js"></script>
+    <script src="~/js/utils.js" asp-append-version="true" ></script>
+    <script src="~/js/Chart.min.js" asp-append-version="true" ></script>
     <!-- http://www.chartjs.org/docs/latest/ -->
-    <script src="~/js/fullcalendar.min.js"></script>
+    <script src="~/js/fullcalendar.min.js" asp-append-version="true" ></script>
     <!-- https://fullcalendar.io/ -->
-    <script src="~/lib/bootcamp/dist/js/bootstrap.min.js"></script>
+    <script src="~/lib/bootcamp/dist/js/bootstrap.min.js" asp-append-version="true" ></script>
     <!-- https://getbootstrap.com/ -->
-    <script src="~/js/tooplate-scripts.js"></script>
+    <script src="~/js/tooplate-scripts.js" asp-append-version="true" ></script>
 
     @RenderSection("Scripts", required: false)
 </body>

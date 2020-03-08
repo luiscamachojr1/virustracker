@@ -14,7 +14,7 @@ COLOR CODES
 */
 
 html {
-  font-size: 17px;
+  font-size: 19.5px;
 }
 
 body {
@@ -22,6 +22,20 @@ body {
   overflow-x: hidden;
 }
 
+p {
+ color: white;
+ text-shadow: 2px 2px 4px #000000;
+}
+
+h4{
+  color: limegreen;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h2{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
 
 section {
   display: flex;
@@ -34,8 +48,10 @@ section {
  
   /* Scroll Snap */
   scroll-snap-align: center;
+
 }
 section#Sri_Lanka {
+
   background: url('https://source.unsplash.com/bZZp1PmHI0E/1600x900') no-repeat center center/cover;;
 }
 body {
@@ -105,9 +121,9 @@ a:focus {
   margin-top: 20px;
 }
 
-.tm-block {
+/*.tm-block {
   padding: 50px 45px;
-}
+}*/
 
 .tm-block-title {
   font-size: 1.4rem;
@@ -449,6 +465,7 @@ footer {
   .tm-col-big,
   .tm-col-small {
     width: 49.65%;
+    
   }
 
   .navbar-collapse {
@@ -480,7 +497,7 @@ footer {
     height: auto;
   }
   .tm-block {
-    padding: 00px;
+    padding: 30px;
   }
 
   .tm-table-actions-row {
@@ -508,7 +525,7 @@ footer {
 
   .tm-pagination-label {
     display: inline-block;
-    margin-right: 0;
+    margin-right: ;
   }
 
   .page-item {
@@ -520,6 +537,7 @@ footer {
   .navbar-collapse {
     top: 70px;
   }
+
 
   .tm-btn-right {
     text-align: left;
@@ -540,6 +558,7 @@ footer {
     font-size: 1.4rem;
     margin-left: 7px;
   }
+
 
   .tm-site-icon {
     font-size: 2em;
