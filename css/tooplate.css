@@ -14,7 +14,7 @@ COLOR CODES
 */
 
 html {
-  font-size: 17px;
+  font-size: 19.5px;
 }
 
 body {
@@ -22,6 +22,38 @@ body {
   overflow-x: hidden;
 }
 
+p {
+ color: white;
+ text-shadow: 2px 2px 4px #000000;
+}
+
+h4{
+  color: limegreen;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h2{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+ 
+  /* Scroll Snap */
+  scroll-snap-align: center;
+
+}
+section#Sri_Lanka {
+
+  background: url('https://source.unsplash.com/bZZp1PmHI0E/1600x900') no-repeat center center/cover;;
+}
 body {
   background-image: url(../img/dash-bg-01.jpg);
   background-size: cover;
@@ -61,7 +93,7 @@ a:focus {
   display: inline-block;
   text-transform: uppercase;
   font-size: 2rem;
-  margin-left: 1rem;
+  /*margin-left: 1rem;*/
   color: #656565;
   letter-spacing: 1px;
 }
@@ -89,9 +121,9 @@ a:focus {
   margin-top: 20px;
 }
 
-.tm-block {
+/*.tm-block {
   padding: 50px 45px;
-}
+}*/
 
 .tm-block-title {
   font-size: 1.4rem;
@@ -137,7 +169,7 @@ a:focus {
 }
 
 .tm-col-big {
-  width: 39%;
+  width: 100%;
 }
 
 .tm-col-small {
@@ -152,6 +184,8 @@ a:focus {
 .tm-link-black:focus {
   color: #0266c4;
 }
+
+
 
 ol {
   margin-bottom: 0;
@@ -490,7 +524,7 @@ footer {
 
   .tm-pagination-label {
     display: inline-block;
-    margin-right: 0;
+    margin-right: ;
   }
 
   .page-item {
@@ -539,3 +573,4 @@ footer {
     top: 107px;
   }
 }
+
