@@ -3,39 +3,26 @@
 Template 2108 Dashboard
 
 http://www.tooplate.com/view/2108-dashboard
-	
+
 
 COLOR CODES
 
   Dark Gray: #656565
   Light Gray: #E6E6E6
   Blue: #0062BB
-  
+
 */
 
 html {
-  font-size: 19.5px;
+  font-size: 17px;
 }
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  background-color: #656565
 }
 
-p {
- color: white;
- text-shadow: 2px 2px 4px #000000;
-}
-
-h4{
-  color: limegreen;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-h2{
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-}
 
 section {
   display: flex;
@@ -45,17 +32,15 @@ section {
   text-align: center;
   width: 100%;
   height: 100vh;
- 
+
   /* Scroll Snap */
   scroll-snap-align: center;
-
 }
 section#Sri_Lanka {
-
   background: url('https://source.unsplash.com/bZZp1PmHI0E/1600x900') no-repeat center center/cover;;
 }
 body {
-  background-image: url(../img/dash-bg-01.jpg);
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -122,7 +107,7 @@ a:focus {
 }
 
 /*.tm-block {
-  padding: 50px 45px;
+  padding: 0px 45px;
 }*/
 
 .tm-block-title {
@@ -132,7 +117,7 @@ a:focus {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #fa1c1c;
+  color: #656565;
 }
 
 .navbar-light .navbar-nav .nav-link,
@@ -465,7 +450,6 @@ footer {
   .tm-col-big,
   .tm-col-small {
     width: 49.65%;
-    
   }
 
   .navbar-collapse {
@@ -497,7 +481,7 @@ footer {
     height: auto;
   }
   .tm-block {
-    padding: 30px;
+    padding: 00px;
   }
 
   .tm-table-actions-row {
@@ -525,7 +509,7 @@ footer {
 
   .tm-pagination-label {
     display: inline-block;
-    margin-right: ;
+    margin-right: 0;
   }
 
   .page-item {
@@ -537,7 +521,6 @@ footer {
   .navbar-collapse {
     top: 70px;
   }
-
 
   .tm-btn-right {
     text-align: left;
@@ -559,7 +542,6 @@ footer {
     margin-left: 7px;
   }
 
-
   .tm-site-icon {
     font-size: 2em;
   }
@@ -576,4 +558,3 @@ footer {
     top: 107px;
   }
 }
-
