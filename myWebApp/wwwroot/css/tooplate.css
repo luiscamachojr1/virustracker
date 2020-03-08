@@ -3,14 +3,14 @@
 Template 2108 Dashboard
 
 http://www.tooplate.com/view/2108-dashboard
-	
+
 
 COLOR CODES
 
   Dark Gray: #656565
   Light Gray: #E6E6E6
   Blue: #0062BB
-  
+
 */
 
 html {
@@ -20,6 +20,7 @@ html {
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  background-color: #656565
 }
 
 
@@ -31,7 +32,7 @@ section {
   text-align: center;
   width: 100%;
   height: 100vh;
- 
+
   /* Scroll Snap */
   scroll-snap-align: center;
 }
@@ -39,7 +40,7 @@ section#Sri_Lanka {
   background: url('https://source.unsplash.com/bZZp1PmHI0E/1600x900') no-repeat center center/cover;;
 }
 body {
-  background-image: url(../img/dash-bg-01.jpg);
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -105,9 +106,9 @@ a:focus {
   margin-top: 20px;
 }
 
-.tm-block {
-  padding: 50px 45px;
-}
+/*.tm-block {
+  padding: 0px 45px;
+}*/
 
 .tm-block-title {
   font-size: 1.4rem;
@@ -557,4 +558,3 @@ footer {
     top: 107px;
   }
 }
-
