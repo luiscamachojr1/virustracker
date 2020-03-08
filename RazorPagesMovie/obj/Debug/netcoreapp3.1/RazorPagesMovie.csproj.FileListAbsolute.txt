@@ -32,3 +32,4 @@
 /Users/luiscamacho/Documents/GitHub/virus-map/RazorPagesMovie/obj/Debug/netcoreapp3.1/RazorPagesMovie.dll
 /Users/luiscamacho/Documents/GitHub/virus-map/RazorPagesMovie/obj/Debug/netcoreapp3.1/RazorPagesMovie.pdb
 /Users/luiscamacho/Documents/GitHub/virus-map/RazorPagesMovie/obj/Debug/netcoreapp3.1/RazorPagesMovie.csproj.CopyComplete
+/Users/luiscamacho/Documents/GitHub/virus-map/RazorPagesMovie/bin/Debug/netcoreapp3.1/web.config
